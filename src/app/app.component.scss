@@ -1,0 +1,31 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-areas: "header header header"
+                         "aside main main"
+                         "aside main main";
+}
+.header{
+    grid-area: header;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #2A2550;
+}
+.sidemenu{
+    grid-area: aside;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #2A2550;
+}
+.content{
+    grid-area: main;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.titulo{
+    color: blue;
+}

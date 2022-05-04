@@ -1,0 +1,19 @@
+
+.item{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.linea{
+     border-bottom: solid white 1px;
+}
+.linea:hover{
+    background-color: #E04D01;
+    transition: all 0.2s;
+}
+.itemtexto{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
